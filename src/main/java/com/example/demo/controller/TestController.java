@@ -18,6 +18,6 @@ public class TestController {
 
 	@RequestMapping("/test/{name}")
 	public String test(@PathVariable("name") String name) {
-       	return "welcome here "+ name +" !";
+       	return "welcome here "+ name +" !, I am di jia ao te man.";
 	}
 }
