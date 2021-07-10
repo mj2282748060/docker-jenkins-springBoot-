@@ -69,4 +69,8 @@ BUILD_ID=dontKillMe
 echo "nohup /opt/java/openjdk/bin/java -jar $JAR_NAME.jar >> out.log &&"
 nohup /opt/java/openjdk/bin/java -jar $JAR_NAME.jar >> out.log &
 ```
+## 成品
+
+配置成功的 jenkins docker镜像 和 docker-compose.yml 文件均在百度网盘中
+
 ## over
